@@ -24,7 +24,7 @@ This will use small sample fasta and gff3 files (included) to train and test the
 
 ---
 
-2. Sensor data
+### 2. Sensor data
 
 Sensor data must be generated for any DNA which is to be used for training or testing
 
@@ -50,7 +50,7 @@ kmer_training_multiplier: sets the level of sampling used when training the kmer
 
 ---
 
-3. Training datasets
+### 3. Training datasets
 
 Sensor data must be cut into training and test sets before use.
 
@@ -68,7 +68,7 @@ positive_fraction: the fraction of positive samples you wish to train on
 
 ---
 
-4. Test datasets
+### 4. Test datasets
 
 Sensor data must be cut into training and test sets before use.
 
@@ -84,7 +84,7 @@ set_title: use this to name your datasets
 
 ---
 
-5. Training neural nets
+### 5. Training neural nets
 
 A basic NN with 10 hidden neurons in a single layer is included. This can be modified.
 
@@ -106,7 +106,7 @@ cross_validation: the number of cross validation sets to use. Each validation ru
 
 ---
 
-6. Testing neural nets
+### 6. Testing neural nets
 
 In order to test the accuracy of trained models, sensor data must be previously generated for the test species.
 
