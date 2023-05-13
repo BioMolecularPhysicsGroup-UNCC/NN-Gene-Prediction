@@ -12,7 +12,7 @@ NN gene prediction method instructions
 Many parameters are the same between functions. They are redundant so that saned files passed between functions will be compatible.
 
 
-1. To run an out-of-the box test use the following commands
+### 1. To run an out-of-the box test use the following commands
 
 python3 Generate_sensor_data.py
 python3 Generate_training_dataset.py 
