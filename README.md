@@ -9,8 +9,6 @@
 NN gene prediction method instructions
 ---
 
-Requires python3 and Tensorflow
-
 Many parameters are the same between functions. They are redundant so that saned files passed between functions will be compatible.
 
 
@@ -24,8 +22,7 @@ python3 Test_dense_model.py
 
 This will use small sample fasta and gff3 files (included) to train and test the method quickly and make sure it is running
 
-#################################################
-
+---
 
 2. Sensor data
 
@@ -36,7 +33,6 @@ fasta files must be located in the fasta_files folder. Each fasta file must be a
 gff3 files must be located in the gff_files folder. The first column of each entry in the gff files will be refered to as the "chromosome" name of the entry.
 
 Parameters:
-
 
 species_list: A list of species you wish to generate sensor data for
 
@@ -52,7 +48,7 @@ n_sensors: the number of sensors being used must be specified here
 
 kmer_training_multiplier: sets the level of sampling used when training the kmer sensors. Seeting this to 1 results in a total number of kmers equal to (number_of_possible_kmers)*1000. This number can be set low (=0.001) when doing quick test runs on a personal computer. Setting this number higher than 1 requires significant resources.
 
-#################################################
+---
 
 3. Training datasets
 
@@ -70,7 +66,7 @@ n_samples: the total number of samples to train on
 
 positive_fraction: the fraction of positive samples you wish to train on
 
-#################################################
+---
 
 4. Test datasets
 
@@ -86,7 +82,7 @@ window_size: must match the window size previously used by Generate_sensor_data.
 
 set_title: use this to name your datasets
 
-#################################################
+---
 
 5. Training neural nets
 
@@ -108,8 +104,7 @@ window_size: must match the window size previously used by Generate_sensor_data.
 
 cross_validation: the number of cross validation sets to use. Each validation run will train and save a separate NN.
 
-
-#################################################
+---
 
 6. Testing neural nets
 
@@ -141,7 +136,14 @@ max_cds_threshold: the maximum CDS/nonCDS threshold to consider
 
 threshold_step: how much to increase the CDS/nonCDS threshold at each iteration
 
+Citing Balloon Clustering
+-------------
+If you are publishing results obtained using Balloon Clustering, please cite: [insert paper]
 
 
-
-
+Contact
+-------
+The point-of-contact for this project is [Dr. Donald Jacobs](https://datascience.charlotte.edu/directory/donald-jacobs). <br />
+Mr. Lonnie Baker: Project lead - [lbaker46@uncc.edu](mailto:lbaker46@uncc.edu) <br />
+Dr. Donald Jacobs: Principal investigator - [djacobs1@uncc.edu](mailto:djacobs1@uncc.edu) <br />
+Or [open an issue](https://github.com/BioMolecularPhysicsGroup-UNCC/NN-Gene-Prediction/issues).
