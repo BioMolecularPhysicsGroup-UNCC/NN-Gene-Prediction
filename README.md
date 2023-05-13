@@ -5,6 +5,7 @@
 ---
 
 # NN Gene Prediction (NNGP) - created by Mr. Lonnie Baker
+# Dependencies: python3 and Tensorflow
 NN gene prediction method instructions
 ---
 
