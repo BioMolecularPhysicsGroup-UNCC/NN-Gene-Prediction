@@ -1,3 +1,10 @@
+<p align="center">
+  <img width="600" height="150" src="https://user-images.githubusercontent.com/91847580/200661164-29ca695f-f4b0-43b1-b5fb-b8944731cfb5.png">
+</p>
+
+---
+
+
 # NN-Gene-Prediction
 Gene prediction using neural network
 
