@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600" height="150" src="https://user-images.githubusercontent.com/91847580/200661164-29ca695f-f4b0-43b1-b5fb-b8944731cfb5.png">
+  <img width="600" height="150" src="[https://user-images.githubusercontent.com/91847580/200661164-29ca695f-f4b0-43b1-b5fb-b8944731cfb5](https://github.com/jwodder/versioningit/assets/91847580/6ee1a363-ce2b-4d3f-8330-4bb13506f3c2).png">
 </p>
 
 ---
