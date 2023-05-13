@@ -4,9 +4,7 @@
 
 ---
 
-# NN-Gene-Prediction
-# Created by Lonnie Baker
-
+# NN-Gene-Prediction - created by Mr. Lonnie Baker
 ################## NN gene prediction method instructions #####################
 
 Requires python3 and Tensorflow
