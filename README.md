@@ -5,7 +5,6 @@
 ---
 
 # NN Gene Prediction (NNGP) - created by Mr. Lonnie Baker
----
 NN gene prediction method instructions
 ---
 
