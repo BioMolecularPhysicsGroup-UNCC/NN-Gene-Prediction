@@ -4,9 +4,8 @@
 
 ---
 
-
 # NN-Gene-Prediction
-Gene prediction using neural network
+# Created by Lonnie Baker
 
 ################## NN gene prediction method instructions #####################
 
