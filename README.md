@@ -136,6 +136,8 @@ max_cds_threshold: the maximum CDS/nonCDS threshold to consider
 
 threshold_step: how much to increase the CDS/nonCDS threshold at each iteration
 
+---
+
 Citing Balloon Clustering
 -------------
 If you are publishing results obtained using Balloon Clustering, please cite: [insert paper]
